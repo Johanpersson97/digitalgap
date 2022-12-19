@@ -6,3 +6,26 @@
     color: rgb(255, 92, 111);
     text-decoration: underline;
 }
+
+#about {
+    color: white;
+    text-decoration: none;
+}
+
+#title {
+    color: white;
+    text-decoration: underline;
+}
+
+.graph-title:hover {
+    color: white;
+}
+
+#about:hover {
+    color: rgb(255, 92, 111);
+    text-decoration: underline;
+}
+
+#title:hover {
+    color: rgb(255, 92, 111);
+}
