@@ -1,0 +1,8 @@
+#page-title, .graph-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.graph-title {
+    color: rgb(255, 92, 111);
+    text-decoration: underline;
+}
