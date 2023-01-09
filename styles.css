@@ -1,9 +1,7 @@
-* {
-    box-sizing: border-box !important;
-}
 
 body {
     background-color: rgb(23, 23, 23) !important;
+    font-family: 'Poppins', sans-serif;
 }
 
 #page-title, .graph-title {
@@ -11,17 +9,7 @@ body {
 }
 
 .graph-title {
-    color: rgb(255, 92, 111);
-    text-decoration: underline;
-}
-
-#about {
-    color: white;
-    text-decoration: none;
-}
-
-#title {
-    color: white;
+    color: #ff5c6f;
     text-decoration: underline;
 }
 
@@ -29,8 +17,18 @@ body {
     color: white;
 }
 
+#about {
+    color: white;
+    text-decoration: none;
+}
+
 #about:hover {
     color: rgb(255, 92, 111);
+    text-decoration: underline;
+}
+
+#title {
+    color: white;
     text-decoration: underline;
 }
 
@@ -42,14 +40,38 @@ g > text{
     fill: white;
 }
 
-article {
+/* region > g {
+    transform="translate(-10,15)"
+} */
+
+
+
+.article {
     background-color: rgba(41, 41, 41, 0.555);
-    padding: 30px 40px;
     border: 1.3px solid black;
     border-radius: 10px;
     box-shadow: 0 0 20px rgb(14, 14, 14);
 }
 
+rect, svg {
+    margin-left: -1rem;
+}
+
 #navbar {
     background-color: rgb(23, 23, 23) !important;
 }
+
+/* rect, svg {
+    padding-left: 0;
+    margin-left: 0;
+} */
+
+/* @media (min-width: 500px) and (max-width: 900px) {
+    #article-container{
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 98% !important;
+    }
+
+}
+ */
